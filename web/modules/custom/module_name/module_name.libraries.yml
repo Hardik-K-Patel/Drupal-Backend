@@ -1,0 +1,10 @@
+module-name-app:
+  version: 1.0
+  js:
+    module-name-app/dist/module_name_app.umd.min.js: { minified: true }
+  css:
+    theme:
+      module-name-app/dist/module_name_app.css: { minified: true }
+  dependencies:
+    - projectname_system/vue
+    - projectname_system/axios

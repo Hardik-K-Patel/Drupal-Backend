@@ -1,0 +1,6 @@
+name: Custom Project
+type: module
+description: 'Adding Vue js and external JS'
+package: Project Name
+core_version_requirement: ^9 || ^10
+version: 1.0

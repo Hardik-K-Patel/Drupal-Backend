@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function module_name_theme() {
+    return [
+      'module_name_block' => [
+        'variables' => ['description' => NULL],
+      ],
+
+    ];
+  }

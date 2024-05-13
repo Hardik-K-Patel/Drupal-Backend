@@ -1,0 +1,8 @@
+name: Module Name
+type: module
+description: 'Provides functionality for vue'
+package: Project Name
+core_version_requirement: ^9 || ^10
+dependencies:
+  - projectname_system:projectname_system
+version: 1.0

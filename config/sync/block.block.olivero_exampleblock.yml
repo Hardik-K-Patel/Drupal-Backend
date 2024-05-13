@@ -1,0 +1,25 @@
+uuid: 24f81d2a-129d-43f2-b977-199291fd1b05
+langcode: en
+status: true
+dependencies:
+  module:
+    - module_name
+    - system
+  theme:
+    - olivero
+id: olivero_exampleblock
+theme: olivero
+region: content
+weight: 0
+provider: null
+plugin: example_block
+settings:
+  id: example_block
+  label: 'Example block'
+  label_display: '0'
+  provider: module_name
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: /vue-home-page
