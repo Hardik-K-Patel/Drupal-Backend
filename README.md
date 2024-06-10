@@ -2,6 +2,7 @@
 ```sh
 git checkout main
 git pull origin main
+ddev composer install
 cd /web
 ddev import-db --file=local-db.sql.gz // import local database
 ddev drush cr  // Clear the cache
